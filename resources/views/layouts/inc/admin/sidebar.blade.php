@@ -9,7 +9,7 @@
 	  <li class="nav-item">
 		<a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
 		  <i class="mdi mdi-circle-outline menu-icon"></i>
-		  <span class="menu-title">UI Elements</span>
+		  <span class="menu-title">Sales</span>
 		  <i class="menu-arrow"></i>
 		</a>
 		<div class="collapse" id="ui-basic">
@@ -24,19 +24,20 @@
 		<a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false"
 		  aria-controls="form-elements">
 		  <i class="mdi mdi-view-headline menu-icon"></i>
-		  <span class="menu-title">Form elements</span>
+		  <span class="menu-title">Category</span>
 		  <i class="menu-arrow"></i>
 		</a>
 		<div class="collapse" id="form-elements">
 		  <ul class="nav flex-column sub-menu">
-			<li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Basic Elements</a></li>          
+			<li class="nav-item"><a class="nav-link" href="{{url('admin/category/create')}}">Add Category</a></li>          
+			<li class="nav-item"><a class="nav-link" href="{{url('admin/category')}}">View Category</a></li>          
 		  </ul>
 		</div>
 	  </li>    
 	  <li class="nav-item">
 		<a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
 		  <i class="mdi mdi-chart-pie menu-icon"></i>
-		  <span class="menu-title">Charts</span>
+		  <span class="menu-title">Products</span>
 		  <i class="menu-arrow"></i>
 		</a>
 		<div class="collapse" id="charts">
@@ -48,7 +49,7 @@
 	  <li class="nav-item">
 		<a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
 		  <i class="mdi mdi-grid-large menu-icon"></i>
-		  <span class="menu-title">Tables</span>
+		  <span class="menu-title">Brands</span>
 		  <i class="menu-arrow"></i>
 		</a>
 		<div class="collapse" id="tables">
@@ -61,7 +62,7 @@
 	  <li class="nav-item">
 		<a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
 		  <i class="mdi mdi-emoticon menu-icon"></i>
-		  <span class="menu-title">Icons</span>
+		  <span class="menu-title">Users</span>
 		  <i class="menu-arrow"></i>
 		</a>
 		<div class="collapse" id="icons">
